@@ -1,0 +1,175 @@
+/* Basic reset */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(177,237,251,0.938)),url(backg1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 20px;
+}
+
+.logo-and-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 1000px;
+    height: 500px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.site-name {
+    font-size: 2em;
+    color: aquamarine;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+}
+
+/* Intro section styling */
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-text {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.intro-text h2 {
+    margin-bottom: 10px;
+    font-family: cursive;
+    font-size: 9em;
+    font-weight: bold;
+    color: skyblue;
+}
+
+.intro-text p {
+    font-size: 5em;
+    font-family: cursive;
+    font-weight: 200;
+    font-style: italic;
+    word-spacing: 4;
+    color:rgba(5, 5, 150, 0.923);
+}
+.form{
+    margin-top: 1rem;
+    padding: 10px;
+    background: tomato;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.chlg{
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    background:rgba(14, 199, 70, 0.923);
+}
+.challenges h1 {
+    margin: 0;
+}
+
+.challenges ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.challenges li {
+    margin: 10px 0;
+}
+
+.challenges a {
+    text-decoration: none;
+    color: rgb(94, 72, 66);
+    font-size: 2em;
+}
+
+.challenges a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+.photo{
+    width: 270px;
+    height: 270px;
+}
+
+.text-box {
+    margin-top: 10px;
+}
+
+.gym, .yoga, .exercises {
+    border-left: 1px solid #dee2e6;
+}
+
+.gym h2, .yoga h2, .exercises h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.gym p, .yoga p, .exercises p {
+    margin-top: 10px;
+}

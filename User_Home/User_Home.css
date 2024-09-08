@@ -1,0 +1,131 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c0760;
+    color: white;
+    padding: 20px 20px;
+}
+
+.logo-and-name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    height: 50px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.site-name {
+    font-size: 2em;
+    color: aquamarine;
+}
+
+.site-name a{
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.site-name a.hover{
+    text-decoration: underline;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.challenges {
+    width: 35%;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-left: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.challenges h1{
+    text-align: center;
+    color: #5d0672;
+    font-size: 3em;
+    font-style: oblique;
+}
+.challenges .box {
+    background-color: #ddd;
+    height: 170px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.actions {
+    width: 66.67%;
+    display: flex;
+    flex-direction: column;
+}
+
+.action-box {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    gap: 10px;
+}
+
+.action-box:last-of-type {
+    border-bottom: none;
+}
+
+.photo{
+    width: 100px;
+    height: 70px;
+}
+h3 {
+    margin: 2px;
+    font-size: 3em;
+    text-align: right;
+}
+
+button {
+    background-color:rgb(37, 161, 223);
+    padding: 5px 10px;
+    width: 15%;
+    height: 80px;
+    font-size: 30px;
+    cursor: pointer;
+}
